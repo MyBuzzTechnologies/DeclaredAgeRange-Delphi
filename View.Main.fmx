@@ -1,0 +1,96 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 485
+  ClientWidth = 322
+  Padding.Left = 12.000000000000000000
+  Padding.Top = 12.000000000000000000
+  Padding.Right = 12.000000000000000000
+  Padding.Bottom = 12.000000000000000000
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 2
+  object SkLabel1: TSkLabel
+    Align = MostTop
+    Position.X = 12.000000000000000000
+    Position.Y = 12.000000000000000000
+    Size.Width = 298.000000000000000000
+    Size.Height = 29.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, FontColor]
+    TextSettings.Font.Size = 22.000000000000000000
+    TextSettings.Font.Weight = Semibold
+    Words = <
+      item
+        Text = 'Declared Age Range Demo'
+      end>
+  end
+  object Layout1: TLayout
+    Align = Top
+    Margins.Top = 12.000000000000000000
+    Margins.Bottom = 12.000000000000000000
+    Position.X = 12.000000000000000000
+    Position.Y = 53.000000000000000000
+    Size.Width = 298.000000000000000000
+    Size.Height = 84.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object btnCheck: TButton
+      Align = BottomCenter
+      Position.X = 76.000000000000000000
+      Position.Y = 51.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Check'
+      OnClick = btnCheckClick
+    end
+    object Layout2: TLayout
+      Align = Top
+      Size.Width = 298.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object SkLabel2: TSkLabel
+        Align = Left
+        Margins.Right = 12.000000000000000000
+        Size.Width = 106.550003051757800000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        Words = <
+          item
+            Text = 'Minimum Age'
+          end>
+      end
+      object editMinAge: TNumberBox
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Left
+        TabOrder = 1
+        Cursor = crIBeam
+        Value = 13.000000000000000000
+        Position.X = 118.550003051757800000
+        Position.Y = 2.000000000000000000
+        Size.Width = 82.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object MemoLog: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    ReadOnly = True
+    StyledSettings = [Family, Style, FontColor]
+    TextSettings.Font.Size = 11.000000000000000000
+    Align = Client
+    Size.Width = 298.000000000000000000
+    Size.Height = 324.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 290.000000000000000000
+    Viewport.Height = 316.000000000000000000
+  end
+end

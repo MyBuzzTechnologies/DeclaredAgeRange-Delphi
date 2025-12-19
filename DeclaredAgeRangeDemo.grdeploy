@@ -1,0 +1,13 @@
+{
+  "Configurations" : ["Debug", "Release"],
+  "iOS" : [{
+      "LocalName" : "Frameworks\\DeclaredAgeRangeObjC.framework",
+      "RemoteDir" : ".\\Frameworks\\DeclaredAgeRangeObjC.framework",
+      "Configurations" : [],
+      "IsDirectory" : true,
+      "IncludeSubDirectories" : true
+    }],
+  "Android" : [],
+  "MacOS" : [],
+  "Linux" : []
+}

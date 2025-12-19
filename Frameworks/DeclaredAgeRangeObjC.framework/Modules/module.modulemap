@@ -1,0 +1,11 @@
+framework module DeclaredAgeRangeObjC {
+  umbrella header "DeclaredAgeRangeObjC.h"
+  export *
+
+  module * { export * }
+}
+
+module DeclaredAgeRangeObjC.Swift {
+  header "DeclaredAgeRangeObjC-Swift.h"
+  requires objc
+}

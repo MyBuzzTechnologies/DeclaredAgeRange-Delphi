@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/02/02 17:09:22.000.193,=C:\Users\chris\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/12/19 08:45:45.883,=C:\Users\chris\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/12/19 08:49:24.413,C:\Development\Test\DeclaredAgeRangeTest\View.Main.pas=C:\Users\chris\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/12/19 08:49:24.413,C:\Development\Test\DeclaredAgeRangeTest\View.Main.fmx=C:\Users\chris\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2025/12/19 08:49:34.502,C:\Development\Test\DeclaredAgeRangeTest\DeclaredAgeRangeDemo.dproj=C:\Users\chris\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2025/12/19 08:50:20.637,=C:\Development\Test\DeclaredAgeRangeTest\Frameworks\iOSapi.DeclaredAgeRangeObjC.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="" Android=""/>  <PMacOS iOSDevice64="_iosdevicectl_00008101-000D6CC20A10001E"/>
+  </ActiveMobileDevice>
+</BorlandProject>
